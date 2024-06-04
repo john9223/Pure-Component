@@ -1,0 +1,1 @@
+PureCounterComponent is likely to perform better than SimpleCounterComponent. This is because PureCounterComponent extends React.PureComponent, which optimizes the rendering process by performing a shallow comparison of props and state before deciding whether to re-render the component.
